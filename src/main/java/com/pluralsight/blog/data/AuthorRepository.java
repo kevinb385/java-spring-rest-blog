@@ -8,7 +8,6 @@ import org.springframework.stereotype.Repository;
 import java.util.ArrayList;
 import java.util.List;
 
-@Repository
 @RepositoryRestResource(exported = false)
 public interface AuthorRepository extends JpaRepository<Author, Long>{
 
